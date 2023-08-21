@@ -1,0 +1,70 @@
+/*
+* Primeiro programa em JavaScript
+* Gustavo Bianchin
+*/
+console.log("Olá mundo");
+
+//prompt("Qual é o seu nome?");
+//variavel const
+const VariavelA = 100;
+const VariavelB = VariavelA +50;
+const VariavelC =  VariavelA / VariavelB
+console.log(VariavelA);
+console.log(VariavelB);
+console.log(VariavelC);
+
+//variável let
+let numero = 5;
+console.log(numero);
+numero = 120 + 5;
+console.log(numero);
+
+//concatenar textos
+/*
+let nome = "Gustavo";
+let sobreNome = "Bianchin";
+let idade = 32;
+console.log("Olá" , nome, sobreNome, "voce tem", idade, "anos");
+*/
+//booleanas
+const variavelFalsa = false;
+const variavelVerdadeira = true;
+
+console.log("Variavel falsa: " + variavelFalsa);
+console.log("variavel verdadeira: " + variavelVerdadeira);
+/*
+//Exercicio 1
+const nome = "Gustavo";
+const sobreNome = "Bianchin";
+const idade = 32 
+const estudande = true
+console.log(nome, sobreNome, idade, estudande);
+
+//typeof
+console.log(typeof nome);
+console.log(typeof idade);
+console.log(typeof estudande);
+*/
+
+let banana;
+console.log(typeof banana);
+banana = "fruta";
+console.log(typeof banana);
+
+const vazio = null;
+console.log(typeof vazio);
+
+
+//PROMPT
+/*
+let valor = prompt("seu nome");
+console.log(valor);
+*/
+// exercicio 2
+let nome = prompt("seu nome");
+console.log(nome);
+let idade = prompt("idade");
+console.log(idade);
+
+console.log(typeof nome);
+console.log(typeof idade);
